@@ -1,0 +1,48 @@
+body{
+    background-color:chartreuse;
+}
+
+
+.header{
+    background-color:#d6c285;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+#show_sketch{
+    margin-left:125px;
+    font-family: 'Architects Daughter', cursive;
+    float:right;
+
+}
+
+
+.info{
+    font-family: 'Architects Daughter', cursive;
+    font-size:28px;
+}
+
+
+canvas{
+    margin-top:125px;
+    border-radius: 20px;
+    border: 5px dotted navy;
+    box-shadow: 5px 5px 5px orangered;
+    box-shadow: 1px 1px 38px yellow;
+animation-name:glow;
+animation-duration:3s;
+animation-iteration-count:infinite;
+}
+
+
+@keyframes glow{
+  from{box-shadow: 1px 1px 38px orangered;}
+  to{box-shadow: 1px 1px 38px yellow;}
+}
+
+
+.main{
+    font-family: 'Architects Daughter', cursive;
+    font-weight:bolder;
+    font-size:20px;
+}
